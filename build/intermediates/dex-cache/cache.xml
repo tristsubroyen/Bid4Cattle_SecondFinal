@@ -12,6 +12,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/admin1/Bid4Cattle_Final/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bf9d1aaf55eec575bfb0f50037703430e2eb7fc8">
+        <dex dex="/Users/admin1/Bid4Cattle_Final/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fb2e4e19d5fc003f415737f6451d566332987d9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin1/Bid4Cattle_Final/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/admin1/Bid4Cattle_Final/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0be27651c5099249cdfc4b72d6d9a434625aaacb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/admin1/Projects/Bid4Cattle_Final/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"

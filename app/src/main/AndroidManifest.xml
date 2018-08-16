@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name=".ListCattle_Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main4Activity"></activity>
+        <activity android:name=".AuctionCattle" />
+        <activity android:name=".BuyCattle"></activity>
     </application>
 
 </manifest>

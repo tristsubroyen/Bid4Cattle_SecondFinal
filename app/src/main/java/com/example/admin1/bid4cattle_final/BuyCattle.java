@@ -3,7 +3,7 @@ package com.example.admin1.bid4cattle_final;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Main4Activity extends AppCompatActivity {
+public class BuyCattle extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
