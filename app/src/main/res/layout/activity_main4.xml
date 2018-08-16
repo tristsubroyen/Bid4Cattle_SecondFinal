@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin1.bid4cattle_final.Main4Activity">
+
+    <ImageView
+        android:id="@+id/viewImage"
+        android:layout_width="174dp"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/viewImage"
+        android:layout_toStartOf="@+id/viewImage" />
+
+    <TextView
+        android:id="@+id/txtSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_alignBaseline="@+id/viewSex"
+        android:layout_alignBottom="@+id/viewSex"
+        android:layout_alignStart="@+id/txtAge" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_alignBottom="@+id/viewDesc"
+        android:layout_toStartOf="@+id/viewImage" />
+
+    <EditText
+        android:id="@+id/viewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/viewDesc"
+        android:layout_alignTop="@+id/txtAge"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1 - 2 years" />
+
+    <EditText
+        android:id="@+id/viewSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/viewAge"
+        android:layout_below="@+id/viewAge"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        tools:text="Calf" />
+
+    <EditText
+        android:id="@+id/viewDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewSex"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/txtDesc"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="beautiful skin patterns" />
+
+    <TextView
+        android:id="@+id/amountLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount:"
+        android:layout_alignBaseline="@+id/viewAmount"
+        android:layout_alignBottom="@+id/viewAmount"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/viewAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R4600,00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/viewDesc"
+        android:layout_alignStart="@+id/viewDesc"
+        android:layout_marginStart="36dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min increment"
+        android:layout_alignBaseline="@+id/incrAMount"
+        android:layout_alignBottom="@+id/incrAMount"
+        android:layout_toStartOf="@+id/viewAmount" />
+
+    <TextView
+        android:id="@+id/incrAMount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/viewAmount"
+        android:layout_below="@+id/viewAmount"
+        android:text="R100"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/placeBID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BID"
+        android:layout_alignBottom="@+id/newBidAmount"
+        android:layout_toEndOf="@+id/viewImage" />
+
+    <EditText
+        android:id="@+id/newBidAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/incrAMount"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="enter bid amount"
+        android:inputType="number" />
+
+
+</RelativeLayout>
