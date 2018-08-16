@@ -9,9 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
-public class Main2Activity extends AppCompatActivity {
+public class ListCattle_Activity extends AppCompatActivity {
 
     ListView list;
 
@@ -37,16 +36,16 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
-            adapter = new Sell_List( Main2Activity.this, web, imageID);
+            adapter = new Sell_List( ListCattle_Activity.this, web, imageID);
             list = (ListView)findViewById(R.id.list);
             list.setAdapter(adapter);
             list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                    // Toast.makeText(Main2Activity.this, "You clicked at " + web[+position], Toast.LENGTH_SHORT).show();
-                    Intent nextScreen = new Intent(Main2Activity.this, Main3Activity.class);
+                    // Toast.makeText(ListCattle_Activity.this, "You clicked at " + web[+position], Toast.LENGTH_SHORT).show();
+                    Intent nextScreen = new Intent(ListCattle_Activity.this, AuctionCattle.class);
                     nextScreen.putExtra("position",web[+position]);
-                    Main2Activity.this.startActivity(nextScreen);
+                    ListCattle_Activity.this.startActivity(nextScreen);
                 }
             });
 

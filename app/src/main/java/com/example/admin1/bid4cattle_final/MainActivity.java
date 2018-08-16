@@ -13,8 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.AdapterView;
-import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
@@ -94,11 +92,11 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_sell) {
-            Intent nextActivity = new Intent(MainActivity.this, Main2Activity.class);
+            Intent nextActivity = new Intent(MainActivity.this, ListCattle_Activity.class);
             MainActivity.this.startActivity(nextActivity);
 
         } else if (id == R.id.nav_manage) {
-            Intent intent = new Intent(this, Main4Activity.class);
+            Intent intent = new Intent(this, BuyCattle.class);
             intent.putExtra("last","last");
             startActivity(intent);
             

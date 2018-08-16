@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import java.util.Random;
 
-public class Main3Activity extends AppCompatActivity {
+public class AuctionCattle extends AppCompatActivity {
 
     private String picPosition;
     private Button startAuction;
@@ -70,8 +70,8 @@ public class Main3Activity extends AppCompatActivity {
                     startAuction.setBackgroundColor(getResources().getColor(R.color.cgreen));
                     popUp("You have sucessfully opened an auction","Auction Open");
 
-                    Intent intent = new Intent(Main3Activity.this, MainActivity.class);
-                    Main3Activity.this.startActivity(intent);
+                    Intent intent = new Intent(AuctionCattle.this, MainActivity.class);
+                    AuctionCattle.this.startActivity(intent);
 
 
                 }else
@@ -108,7 +108,7 @@ public class Main3Activity extends AppCompatActivity {
 
     private void popUp(String message, String title)
     {
-        AlertDialog.Builder alert = new AlertDialog.Builder(Main3Activity.this);
+        AlertDialog.Builder alert = new AlertDialog.Builder(AuctionCattle.this);
         alert.setMessage(message).setPositiveButton("Continue", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
