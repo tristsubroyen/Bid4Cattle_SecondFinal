@@ -24,7 +24,7 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AuctionCattle" />
-        <activity android:name=".BuyCattle"></activity>
+        <activity android:name=".BuyCattle" />
     </application>
 
 </manifest>

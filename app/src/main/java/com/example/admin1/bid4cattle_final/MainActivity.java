@@ -93,10 +93,12 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_sell) {
             Intent nextActivity = new Intent(MainActivity.this, ListCattle_Activity.class);
-            MainActivity.this.startActivity(nextActivity);
+            nextActivity.putExtra("last","first");
+
+            startActivity(nextActivity);
 
         } else if (id == R.id.nav_manage) {
-            Intent intent = new Intent(this, BuyCattle.class);
+            Intent intent = new Intent(this, ListCattle_Activity.class);
             intent.putExtra("last","last");
             startActivity(intent);
             
