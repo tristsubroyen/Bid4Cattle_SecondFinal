@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <EditText
+        android:id="@+id/edit_sign_up_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_signup"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_sign_up_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/surname_signup"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_sign_up_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_signup"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_sign_up_repeat_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_repeat_signup"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_sign_up_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_signup"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edit_sign_up_repeat_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_repeat_signup"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proceed" />
+</LinearLayout>

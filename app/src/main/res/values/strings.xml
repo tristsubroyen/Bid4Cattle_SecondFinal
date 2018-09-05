@@ -1,9 +1,22 @@
 <resources>
-    <string name="app_name">Bid4Cattle_Final</string>
+    <string name="app_name">Bid4Cattle</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="app_slogan">The Cattle Trading App</string>
+    <string name="welcome_signup">Sign up</string>
+    <string name="welcome_signin">Sign in</string>
+    <string name="welcome_text">Welcome to</string>
+    <string name="name_signup">Name</string>
+    <string name="surname_signup">Last Name</string>
+    <string name="email_signup">Email address</string>
+    <string name="email_repeat_signup">Confirm email address</string>
+    <string name="password_signup">Password</string>
+    <string name="password_repeat_signup">Confirm password</string>
+    <string name="proceed">Proceed</string>
+    <string name="login_signin">Login</string>
+    <string name="welcome_msg">Please login or register</string>
 </resources>

@@ -25,6 +25,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AuctionCattle" />
         <activity android:name=".BuyCattle" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".SigninActivity"></activity>
     </application>
 
 </manifest>
