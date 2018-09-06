@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
     android:orientation="vertical"
-    tools:context=".SignupActivity">
+    tools:context=".Presentation_Layer.SignupActivity">
 
     <EditText
         android:id="@+id/edit_sign_up_name"
@@ -21,6 +21,13 @@
         android:layout_height="wrap_content"
         android:hint="@string/surname_signup"
         android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city_signup"
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/edit_sign_up_email"

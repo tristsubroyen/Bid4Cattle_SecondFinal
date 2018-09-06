@@ -1,6 +1,5 @@
-package com.example.admin1.bid4cattle_final;
+package com.example.admin1.bid4cattle_final.Presentation_Layer;
 
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +11,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import com.example.admin1.bid4cattle_final.R;
 
 public class ListCattle_Activity extends AppCompatActivity {
 

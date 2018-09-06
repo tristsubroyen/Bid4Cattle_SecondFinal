@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.admin1.bid4cattle_final.BuyCattle">
+    tools:context="com.example.admin1.bid4cattle_final.Presentation_Layer.BuyCattle">
 
     <ImageView
         android:id="@+id/viewImage"

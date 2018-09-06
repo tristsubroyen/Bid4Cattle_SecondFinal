@@ -1,5 +1,4 @@
 package com.example.admin1.bid4cattle_final.BusinessLogic_Layer;
-import com.example.admin1.bid4cattle_final.Database_Layer.SQLs;
 
 /**
  * Created by admin1 on 2018/08/29.
@@ -12,7 +11,6 @@ public class PlaceBid<K extends Number, V extends K, Q extends Integer, X extend
     private Q auctionID;
     private X userID;
     private final double limit = 20000.00; //needs a review
-    private SQLs SQL_Object;
 
     public PlaceBid(Q auctionID, X userID, K newBid, V recentAmount, int id)
     {
@@ -25,7 +23,6 @@ public class PlaceBid<K extends Number, V extends K, Q extends Integer, X extend
         {
             if(checkLimit())
             {
-                this.SQL_Object = new SQLs();
 
                 submitBid(this.userID, this.auctionID, this.bid, this.currentAmount); // placing bit to the DB/Server
 
@@ -46,6 +43,5 @@ public class PlaceBid<K extends Number, V extends K, Q extends Integer, X extend
 
     private void submitBid(X userID, Q auctionID, K newBid, V currentAmount)
     {
-        this.SQL_Object.placeBid("Bids", auctionID.intValue(),  userID.intValue(), (newBid.doubleValue() + currentAmount.doubleValue()) );
     }
 }

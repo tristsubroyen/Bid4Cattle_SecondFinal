@@ -1,4 +1,4 @@
-package com.example.admin1.bid4cattle_final;
+package com.example.admin1.bid4cattle_final.Presentation_Layer;
 
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.content.Intent;
 import android.widget.EditText;
 import android.widget.ImageView;
+
+import com.example.admin1.bid4cattle_final.R;
+
 import java.util.Random;
 
 public class AuctionCattle extends AppCompatActivity {

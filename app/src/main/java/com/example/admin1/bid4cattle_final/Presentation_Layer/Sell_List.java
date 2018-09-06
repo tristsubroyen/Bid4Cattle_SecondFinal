@@ -1,4 +1,4 @@
-package com.example.admin1.bid4cattle_final;
+package com.example.admin1.bid4cattle_final.Presentation_Layer;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.widget.ArrayAdapter;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.admin1.bid4cattle_final.R;
 
 /**
  * Created by admin1 on 2018/08/15.

@@ -1,4 +1,4 @@
-package com.example.admin1.bid4cattle_final;
+package com.example.admin1.bid4cattle_final.Presentation_Layer;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.example.admin1.bid4cattle_final.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
