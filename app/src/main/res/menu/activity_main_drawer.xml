@@ -15,9 +15,18 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Sell Cattle" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_buy"
             android:icon="@drawable/ic_menu_manage"
             android:title="Buy Cattle" />
+        <item
+            android:id="@+id/nav_Collab"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Collaborate" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manage Cattle" />
     </group>
 
 </menu>
+

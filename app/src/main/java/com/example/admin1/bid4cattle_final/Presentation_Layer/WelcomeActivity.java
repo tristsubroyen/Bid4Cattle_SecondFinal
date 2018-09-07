@@ -33,12 +33,14 @@ public class WelcomeActivity extends AppCompatActivity {
             }
         });
 
-        controller = new Controller("Sbusiso", "mayalo", "cape town", "e1@gmail.com", "1", this);
+
         // Signin button
         this.btn_signin = (Button) findViewById(R.id.welcome_signin_button);
         this.btn_signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(WelcomeActivity.this, SigninActivity.class);
+                startActivity(intent);
             }
         });
 

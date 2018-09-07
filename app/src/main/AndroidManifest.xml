@@ -28,6 +28,9 @@
         <activity android:name=".Presentation_Layer.WelcomeActivity" android:exported="true" />
 
         <activity android:name=".Presentation_Layer.SignupActivity" />
+        <activity android:name=".Presentation_Layer.AddCattle" />
+        <activity android:name=".Presentation_Layer.Collaborate" />
+
         <activity android:name=".Presentation_Layer.SigninActivity"></activity>
     </application>
 

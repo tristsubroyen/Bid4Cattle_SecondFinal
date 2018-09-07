@@ -28,14 +28,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -99,12 +91,22 @@ public class MainActivity extends AppCompatActivity
 
             startActivity(nextActivity);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_buy) {
             Intent intent = new Intent(this, ListCattle_Activity.class);
             intent.putExtra("last","last");
             startActivity(intent);
             
+        }else if (id == R.id.nav_Collab) {
+            Toast.makeText(MainActivity.this, "You clicked at ", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, ListCattle_Activity.class);
+            intent.putExtra("last","1");
+            startActivity(intent);
+
+        } else if (id == R.id.nav_manage) {
+            Toast.makeText(MainActivity.this, "You clicked at ", Toast.LENGTH_SHORT).show();
         }
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

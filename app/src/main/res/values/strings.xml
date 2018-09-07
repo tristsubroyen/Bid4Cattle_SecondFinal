@@ -20,4 +20,5 @@
     <string name="login_signin">Login</string>
     <string name="welcome_msg">Please login or register</string>
     <string name="city_signup">City</string>
+    <string name="addCattle">Add</string>
 </resources>

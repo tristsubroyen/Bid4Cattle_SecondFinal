@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin1.bid4cattle_final.Presentation_Layer.BuyCattle">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:paddingLeft="0dp"
+        android:text="Descrition:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="177dp"
+        android:paddingLeft="0dp"
+        android:text="Colour:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/add_colour"
+        android:layout_alignTop="@+id/textView2"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="49dp"
+        android:paddingLeft="0dp"
+        android:text="Age:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/spinner1"
+        android:layout_marginTop="117dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="-162dp"
+        android:paddingLeft="0dp"
+        android:text="Sex:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/add_colour"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView5"
+        android:hint="         Colour"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="344dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addImage_btn"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="92dp"
+        android:text="Add image" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="27dp"
+        android:text="Button" />
+</RelativeLayout>
+
+
